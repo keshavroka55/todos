@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>7-Day Project Checklist</title>
+  <meta name="description" content="A simple checklist to track the 7-day Quiz Battle — Gamified Learning App project plan.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="app">
+
+    <!-- ================= DASHBOARD ================= -->
+    <header class="dashboard">
+      <div class="dashboard__top">
+        <div class="dashboard__titles">
+          <h1 class="dashboard__title" id="project-title">Checklist</h1>
+          <p class="dashboard__subtitle" id="project-subtitle"></p>
+        </div>
+        <button type="button" id="reset-all" class="btn btn--danger">Reset All</button>
+      </div>
+
+      <div class="overall">
+        <div class="overall__row">
+          <span class="overall__label">Overall progress</span>
+          <span class="overall__percent" id="overall-percent">0%</span>
+        </div>
+
+        <div class="progress" id="overall-progress" role="progressbar"
+             aria-label="Overall project progress"
+             aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+          <div class="progress__fill" id="overall-bar"></div>
+        </div>
+
+        <ul class="stats">
+          <li class="stat"><strong id="stat-completed">0</strong><span>Completed</span></li>
+          <li class="stat"><strong id="stat-remaining">0</strong><span>Remaining</span></li>
+          <li class="stat"><strong id="stat-total">0</strong><span>Total tasks</span></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- ================= ERROR MESSAGE ================= -->
+    <div id="error-box" class="error-box" hidden></div>
+
+    <!-- ================= DAY SECTIONS ================= -->
+    <main id="days" class="days" aria-label="Project plan by day"></main>
+
+    <footer class="footer">
+      <p>Progress is saved automatically in this browser.</p>
+    </footer>
+
+  </div>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>

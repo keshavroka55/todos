@@ -1,0 +1,127 @@
+{
+  "project": {
+    "title": "Software for enterprise First assignment",
+    "subtitle": "Quiz Battle — Gamified Learning App",
+    "storageKey": "sevenDayChecklist.v1"
+  },
+  "days": [
+    {
+      "id": "d1",
+      "day": 1,
+      "title": "Understand and Plan",
+      "open": true,
+      "tasks": [
+        { "id": "d1-01", "label": "Explore the provided GitHub repository." },
+        { "id": "d1-02", "label": "Read the README and inspect the source files." },
+        { "id": "d1-03", "label": "Run and understand the existing example." },
+        { "id": "d1-04", "label": "Choose the application theme and finalize the project scope." },
+        { "id": "d1-05", "label": "Map the four assignment themes to application features." },
+        { "id": "d1-06", "label": "Design the basic application architecture." }
+      ]
+    },
+    {
+      "id": "d2",
+      "day": 2,
+      "title": "Project Setup and Version Control",
+      "open": false,
+      "tasks": [
+        { "id": "d2-01", "label": "Create the project repository on GitHub." },
+        { "id": "d2-02", "label": "Set up the project structure and dependencies." },
+        { "id": "d2-03", "label": "Create the README and .gitignore files." },
+        { "id": "d2-04", "label": "Organize the frontend and backend code." },
+        { "id": "d2-05", "label": "Make the initial Git commit." },
+        { "id": "d2-06", "label": "Create a feature branch." },
+        { "id": "d2-07", "label": "Document external libraries and code sources." }
+      ]
+    },
+    {
+      "id": "d3",
+      "day": 3,
+      "title": "Core Application",
+      "open": false,
+      "tasks": [
+        { "id": "d3-01", "label": "Build the main application interface." },
+        { "id": "d3-02", "label": "Implement the core quiz functionality." },
+        { "id": "d3-03", "label": "Add questions and answer options." },
+        { "id": "d3-04", "label": "Implement answer validation and score calculation." },
+        { "id": "d3-05", "label": "Add question navigation and quiz completion." },
+        { "id": "d3-06", "label": "Add a restart quiz feature." },
+        { "id": "d3-07", "label": "Test the core application." },
+        { "id": "d3-08", "label": "Commit the completed changes." }
+      ]
+    },
+    {
+      "id": "d4",
+      "day": 4,
+      "title": "Events and Interoperability",
+      "open": false,
+      "tasks": [
+        { "id": "d4-01", "label": "Implement JavaScript event handlers." },
+        { "id": "d4-02", "label": "Connect the frontend to the backend using HTTP." },
+        { "id": "d4-03", "label": "Create the required backend API endpoints." },
+        { "id": "d4-04", "label": "Integrate an external API." },
+        { "id": "d4-05", "label": "Process and display API responses." },
+        { "id": "d4-06", "label": "Handle loading states and API errors." },
+        { "id": "d4-07", "label": "Test communication between the application components." },
+        { "id": "d4-08", "label": "Commit the completed changes." }
+      ]
+    },
+    {
+      "id": "d5",
+      "day": 5,
+      "title": "Virtual Identity and Persistence",
+      "open": false,
+      "tasks": [
+        { "id": "d5-01", "label": "Implement user registration." },
+        { "id": "d5-02", "label": "Implement login and logout." },
+        { "id": "d5-03", "label": "Store user information in the database." },
+        { "id": "d5-04", "label": "Implement secure password hashing." },
+        { "id": "d5-05", "label": "Configure sessions and cookies." },
+        { "id": "d5-06", "label": "Protect authenticated routes." },
+        { "id": "d5-07", "label": "Save quiz scores against the authenticated user." },
+        { "id": "d5-08", "label": "Test authentication and authorization." },
+        { "id": "d5-09", "label": "Commit the completed changes." }
+      ]
+    },
+    {
+      "id": "d6",
+      "day": 6,
+      "title": "Testing and Documentation",
+      "open": false,
+      "tasks": [
+        { "id": "d6-01", "label": "Test the complete application workflow." },
+        { "id": "d6-02", "label": "Test quiz scoring and timer functionality." },
+        { "id": "d6-03", "label": "Test registration, login, and logout." },
+        { "id": "d6-04", "label": "Test external API failure scenarios." },
+        { "id": "d6-05", "label": "Verify that user scores are saved correctly." },
+        { "id": "d6-06", "label": "Review the code structure and error handling." },
+        { "id": "d6-07", "label": "Check that secrets are not committed to GitHub." },
+        { "id": "d6-08", "label": "Create and review a pull request." },
+        { "id": "d6-09", "label": "Capture screenshots of Git evidence." },
+        { "id": "d6-10", "label": "Update the README and architecture documentation." },
+        { "id": "d6-11", "label": "Document external code and references." }
+      ]
+    },
+    {
+      "id": "d7",
+      "day": 7,
+      "title": "Final Submission",
+      "open": false,
+      "tasks": [
+        { "id": "d7-01", "label": "Run the application and verify all major features." },
+        { "id": "d7-02", "label": "Verify that the source code is available in GitHub." },
+        { "id": "d7-03", "label": "Finalize the README and setup instructions." },
+        { "id": "d7-04", "label": "Prepare supporting evidence and screenshots." },
+        { "id": "d7-05", "label": "Prepare the video demonstration." },
+        { "id": "d7-06", "label": "Explain version control." },
+        { "id": "d7-07", "label": "Explain event-driven programming." },
+        { "id": "d7-08", "label": "Explain interoperability." },
+        { "id": "d7-09", "label": "Explain virtual identity." },
+        { "id": "d7-10", "label": "Record the video using my own voice." },
+        { "id": "d7-11", "label": "Ensure the video is no longer than 10 minutes." },
+        { "id": "d7-12", "label": "Check the submission requirements." },
+        { "id": "d7-13", "label": "Submit the source code, supporting materials, and video." }
+      ]
+    }
+  ]
+}
