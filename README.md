@@ -1,3 +1,4 @@
+[📄 Prompt](./PROMPT.md) • [🤝 Contributing](./CONTRIBUTING.md)
 # Your Project Checklist
 
 A simple, responsive checklist app that tracks your project plan day by day.
@@ -63,6 +64,7 @@ vercel deploy
 ```
 
 Vercel prints a **preview URL** when it finishes. Open it to check the site.
+e.g: https://todos-delta-kohl.vercel.app/
 
 You can also check on [vercel.com](https://vercel.com).
 
@@ -102,3 +104,4 @@ vercel --prod
 ```
 
 **Note:** Only required to update this **todo.json** file.
+
