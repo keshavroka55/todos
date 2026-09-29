@@ -64,7 +64,6 @@ vercel deploy
 ```
 
 Vercel prints a **preview URL** when it finishes. Open it to check the site.
-e.g: https://todos-delta-kohl.vercel.app/
 
 You can also check on [vercel.com](https://vercel.com).
 
