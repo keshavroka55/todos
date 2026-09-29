@@ -1,126 +1,572 @@
 {
   "project": {
-    "title": "Software for enterprise First assignment",
-    "subtitle": "Quiz Battle — Gamified Learning App",
-    "storageKey": "sevenDayChecklist.v1"
+    "title": "Software for Enterprise — Assignment 1",
+    "subtitle": "CIS046-3 | Working Application and 10-Minute Video",
+    "storageKey": "cis0463.assignment1.v1"
   },
   "days": [
     {
       "id": "d1",
       "day": 1,
-      "title": "Understand and Plan",
+      "title": "Understand the Assignment",
       "open": true,
       "tasks": [
-        { "id": "d1-01", "label": "Explore the provided GitHub repository." },
-        { "id": "d1-02", "label": "Read the README and inspect the source files." },
-        { "id": "d1-03", "label": "Run and understand the existing example." },
-        { "id": "d1-04", "label": "Choose the application theme and finalize the project scope." },
-        { "id": "d1-05", "label": "Map the four assignment themes to application features." },
-        { "id": "d1-06", "label": "Design the basic application architecture." }
+        {
+          "id": "d1-01",
+          "label": "Read the assignment brief and identify all required deliverables."
+        },
+        {
+          "id": "d1-02",
+          "label": "Review the marking criteria for the first-class band."
+        },
+        {
+          "id": "d1-03",
+          "label": "Understand the four themes: version control, events, interoperability, and virtual identity."
+        },
+        {
+          "id": "d1-04",
+          "label": "List the submission requirements and important deadlines."
+        },
+        {
+          "id": "d1-05",
+          "label": "Write a short summary of what the assignment requires."
+        }
       ]
     },
     {
       "id": "d2",
       "day": 2,
-      "title": "Project Setup and Version Control",
+      "title": "Choose the Project Idea",
       "open": false,
       "tasks": [
-        { "id": "d2-01", "label": "Create the project repository on GitHub." },
-        { "id": "d2-02", "label": "Set up the project structure and dependencies." },
-        { "id": "d2-03", "label": "Create the README and .gitignore files." },
-        { "id": "d2-04", "label": "Organize the frontend and backend code." },
-        { "id": "d2-05", "label": "Make the initial Git commit." },
-        { "id": "d2-06", "label": "Create a feature branch." },
-        { "id": "d2-07", "label": "Document external libraries and code sources." }
+        {
+          "id": "d2-01",
+          "label": "Understand how a software application can demonstrate all four themes."
+        },
+        {
+          "id": "d2-02",
+          "label": "Choose a project idea suitable for the assignment."
+        },
+        {
+          "id": "d2-03",
+          "label": "Define the problem and intended users."
+        },
+        {
+          "id": "d2-04",
+          "label": "Identify the main features needed for a working demonstration."
+        },
+        {
+          "id": "d2-05",
+          "label": "Write the project scope and confirm it is achievable."
+        }
       ]
     },
     {
       "id": "d3",
       "day": 3,
-      "title": "Core Application",
+      "title": "Plan the Application Architecture",
       "open": false,
       "tasks": [
-        { "id": "d3-01", "label": "Build the main application interface." },
-        { "id": "d3-02", "label": "Implement the core quiz functionality." },
-        { "id": "d3-03", "label": "Add questions and answer options." },
-        { "id": "d3-04", "label": "Implement answer validation and score calculation." },
-        { "id": "d3-05", "label": "Add question navigation and quiz completion." },
-        { "id": "d3-06", "label": "Add a restart quiz feature." },
-        { "id": "d3-07", "label": "Test the core application." },
-        { "id": "d3-08", "label": "Commit the completed changes." }
+        {
+          "id": "d3-01",
+          "label": "Understand the purpose of distributed software architecture."
+        },
+        {
+          "id": "d3-02",
+          "label": "Choose the programming language and required technologies."
+        },
+        {
+          "id": "d3-03",
+          "label": "Design the frontend, backend, and external service connections."
+        },
+        {
+          "id": "d3-04",
+          "label": "Map the four assignment themes to specific application features."
+        },
+        {
+          "id": "d3-05",
+          "label": "Complete a simple architecture diagram."
+        }
       ]
     },
     {
       "id": "d4",
       "day": 4,
-      "title": "Events and Interoperability",
+      "title": "Set Up the Project and Git",
       "open": false,
       "tasks": [
-        { "id": "d4-01", "label": "Implement JavaScript event handlers." },
-        { "id": "d4-02", "label": "Connect the frontend to the backend using HTTP." },
-        { "id": "d4-03", "label": "Create the required backend API endpoints." },
-        { "id": "d4-04", "label": "Integrate an external API." },
-        { "id": "d4-05", "label": "Process and display API responses." },
-        { "id": "d4-06", "label": "Handle loading states and API errors." },
-        { "id": "d4-07", "label": "Test communication between the application components." },
-        { "id": "d4-08", "label": "Commit the completed changes." }
+        {
+          "id": "d4-01",
+          "label": "Understand repositories, commits, branches, and version history."
+        },
+        {
+          "id": "d4-02",
+          "label": "Create the project repository on GitHub."
+        },
+        {
+          "id": "d4-03",
+          "label": "Set up the application structure and dependencies."
+        },
+        {
+          "id": "d4-04",
+          "label": "Create the README and .gitignore files."
+        },
+        {
+          "id": "d4-05",
+          "label": "Make the initial commit and verify the repository."
+        }
       ]
     },
     {
       "id": "d5",
       "day": 5,
-      "title": "Virtual Identity and Persistence",
+      "title": "Build the Application Foundation",
       "open": false,
       "tasks": [
-        { "id": "d5-01", "label": "Implement user registration." },
-        { "id": "d5-02", "label": "Implement login and logout." },
-        { "id": "d5-03", "label": "Store user information in the database." },
-        { "id": "d5-04", "label": "Implement secure password hashing." },
-        { "id": "d5-05", "label": "Configure sessions and cookies." },
-        { "id": "d5-06", "label": "Protect authenticated routes." },
-        { "id": "d5-07", "label": "Save quiz scores against the authenticated user." },
-        { "id": "d5-08", "label": "Test authentication and authorization." },
-        { "id": "d5-09", "label": "Commit the completed changes." }
+        {
+          "id": "d5-01",
+          "label": "Understand the responsibilities of the main application components."
+        },
+        {
+          "id": "d5-02",
+          "label": "Build the main application interface."
+        },
+        {
+          "id": "d5-03",
+          "label": "Create the initial backend or application logic."
+        },
+        {
+          "id": "d5-04",
+          "label": "Connect the main components where required."
+        },
+        {
+          "id": "d5-05",
+          "label": "Run the application and commit the working foundation."
+        }
       ]
     },
     {
       "id": "d6",
       "day": 6,
-      "title": "Testing and Documentation",
+      "title": "Implement the Core Feature",
       "open": false,
       "tasks": [
-        { "id": "d6-01", "label": "Test the complete application workflow." },
-        { "id": "d6-02", "label": "Test quiz scoring and timer functionality." },
-        { "id": "d6-03", "label": "Test registration, login, and logout." },
-        { "id": "d6-04", "label": "Test external API failure scenarios." },
-        { "id": "d6-05", "label": "Verify that user scores are saved correctly." },
-        { "id": "d6-06", "label": "Review the code structure and error handling." },
-        { "id": "d6-07", "label": "Check that secrets are not committed to GitHub." },
-        { "id": "d6-08", "label": "Create and review a pull request." },
-        { "id": "d6-09", "label": "Capture screenshots of Git evidence." },
-        { "id": "d6-10", "label": "Update the README and architecture documentation." },
-        { "id": "d6-11", "label": "Document external code and references." }
+        {
+          "id": "d6-01",
+          "label": "Define the main user workflow."
+        },
+        {
+          "id": "d6-02",
+          "label": "Build the primary feature of the application."
+        },
+        {
+          "id": "d6-03",
+          "label": "Connect the interface to the required application logic."
+        },
+        {
+          "id": "d6-04",
+          "label": "Handle basic invalid inputs and errors."
+        },
+        {
+          "id": "d6-05",
+          "label": "Test the core workflow and commit the changes."
+        }
       ]
     },
     {
       "id": "d7",
       "day": 7,
+      "title": "Develop the Core Feature Further",
+      "open": false,
+      "tasks": [
+        {
+          "id": "d7-01",
+          "label": "Complete the remaining essential core functionality."
+        },
+        {
+          "id": "d7-02",
+          "label": "Add the necessary data handling or persistence."
+        },
+        {
+          "id": "d7-03",
+          "label": "Improve the interface for the main workflow."
+        },
+        {
+          "id": "d7-04",
+          "label": "Test the complete core feature."
+        },
+        {
+          "id": "d7-05",
+          "label": "Commit the working feature and update the README."
+        }
+      ]
+    },
+    {
+      "id": "d8",
+      "day": 8,
+      "title": "Implement Event-Driven Programming",
+      "open": false,
+      "tasks": [
+        {
+          "id": "d8-01",
+          "label": "Understand events, event handlers, and event-driven programming."
+        },
+        {
+          "id": "d8-02",
+          "label": "Identify important events in the application."
+        },
+        {
+          "id": "d8-03",
+          "label": "Implement the required event handlers."
+        },
+        {
+          "id": "d8-04",
+          "label": "Connect user actions to the appropriate responses."
+        },
+        {
+          "id": "d8-05",
+          "label": "Test the event-driven workflow and commit the changes."
+        }
+      ]
+    },
+    {
+      "id": "d9",
+      "day": 9,
+      "title": "Implement Interoperability",
+      "open": false,
+      "tasks": [
+        {
+          "id": "d9-01",
+          "label": "Understand interoperability and communication between software components."
+        },
+        {
+          "id": "d9-02",
+          "label": "Choose the external service or software integration required."
+        },
+        {
+          "id": "d9-03",
+          "label": "Implement the connection using an appropriate protocol."
+        },
+        {
+          "id": "d9-04",
+          "label": "Process and display the external service response."
+        },
+        {
+          "id": "d9-05",
+          "label": "Test integration errors and commit the working integration."
+        }
+      ]
+    },
+    {
+      "id": "d10",
+      "day": 10,
+      "title": "Implement Virtual Identity",
+      "open": false,
+      "tasks": [
+        {
+          "id": "d10-01",
+          "label": "Understand authentication, virtual identity, and cookies or sessions."
+        },
+        {
+          "id": "d10-02",
+          "label": "Implement the authentication mechanism required by the application."
+        },
+        {
+          "id": "d10-03",
+          "label": "Connect authenticated identity to the relevant application features."
+        },
+        {
+          "id": "d10-04",
+          "label": "Apply appropriate password and session security practices."
+        },
+        {
+          "id": "d10-05",
+          "label": "Test authentication and commit the working implementation."
+        }
+      ]
+    },
+    {
+      "id": "d11",
+      "day": 11,
+      "title": "Review Version Control Practices",
+      "open": false,
+      "tasks": [
+        {
+          "id": "d11-01",
+          "label": "Understand how modularity and maintainability relate to version control."
+        },
+        {
+          "id": "d11-02",
+          "label": "Review the repository history and commit quality."
+        },
+        {
+          "id": "d11-03",
+          "label": "Use a feature branch for a suitable improvement."
+        },
+        {
+          "id": "d11-04",
+          "label": "Review how components and dependencies are organized."
+        },
+        {
+          "id": "d11-05",
+          "label": "Document version control decisions and verify the Git evidence."
+        }
+      ]
+    },
+    {
+      "id": "d12",
+      "day": 12,
+      "title": "Review Integration and Security",
+      "open": false,
+      "tasks": [
+        {
+          "id": "d12-01",
+          "label": "Review how the application communicates with external software."
+        },
+        {
+          "id": "d12-02",
+          "label": "Document the protocol and third-party dependencies used."
+        },
+        {
+          "id": "d12-03",
+          "label": "Review authentication and virtual identity security."
+        },
+        {
+          "id": "d12-04",
+          "label": "Test important failure and invalid-input scenarios."
+        },
+        {
+          "id": "d12-05",
+          "label": "Record test results and commit any necessary fixes."
+        }
+      ]
+    },
+    {
+      "id": "d13",
+      "day": 13,
+      "title": "Prepare for Tutor Feedback",
+      "open": false,
+      "tasks": [
+        {
+          "id": "d13-01",
+          "label": "Understand the evidence needed to demonstrate assignment progress."
+        },
+        {
+          "id": "d13-02",
+          "label": "Prepare a working demonstration of the application."
+        },
+        {
+          "id": "d13-03",
+          "label": "Prepare a short explanation of each of the four themes."
+        },
+        {
+          "id": "d13-04",
+          "label": "Compare the current work against the assignment requirements."
+        },
+        {
+          "id": "d13-05",
+          "label": "Prepare questions about unclear requirements and improvement areas."
+        }
+      ]
+    },
+    {
+      "id": "d14",
+      "day": 14,
+      "title": "Check the First-Class Criteria",
+      "open": false,
+      "tasks": [
+        {
+          "id": "d14-01",
+          "label": "Review the highest-band version control marking criteria."
+        },
+        {
+          "id": "d14-02",
+          "label": "Review the highest-band event-driven programming criteria."
+        },
+        {
+          "id": "d14-03",
+          "label": "Review the highest-band interoperability criteria."
+        },
+        {
+          "id": "d14-04",
+          "label": "Review the highest-band virtual identity criteria."
+        },
+        {
+          "id": "d14-05",
+          "label": "List the specific areas requiring stronger evidence or critical evaluation."
+        }
+      ]
+    },
+    {
+      "id": "d15",
+      "day": 15,
+      "title": "Present Work to the Tutor",
+      "open": false,
+      "tasks": [
+        {
+          "id": "d15-01",
+          "label": "Present the working application to the tutor by Week 8 or earlier."
+        },
+        {
+          "id": "d15-02",
+          "label": "Explain how the application demonstrates the four themes."
+        },
+        {
+          "id": "d15-03",
+          "label": "Ask for feedback on technical depth and marking criteria."
+        },
+        {
+          "id": "d15-04",
+          "label": "Record the tutor's feedback and suggested improvements."
+        },
+        {
+          "id": "d15-05",
+          "label": "Save evidence of the tutor presentation."
+        }
+      ]
+    },
+    {
+      "id": "d16",
+      "day": 16,
+      "title": "Improve the Application Using Feedback",
+      "open": false,
+      "tasks": [
+        {
+          "id": "d16-01",
+          "label": "Review the tutor's feedback and prioritize necessary changes."
+        },
+        {
+          "id": "d16-02",
+          "label": "Improve the application architecture or component organization."
+        },
+        {
+          "id": "d16-03",
+          "label": "Improve the implementation of the most important theme-related feature."
+        },
+        {
+          "id": "d16-04",
+          "label": "Address the highest-priority feedback items."
+        },
+        {
+          "id": "d16-05",
+          "label": "Test the improvements and commit the changes."
+        }
+      ]
+    },
+    {
+      "id": "d17",
+      "day": 17,
+      "title": "Complete Critical Evaluation",
+      "open": false,
+      "tasks": [
+        {
+          "id": "d17-01",
+          "label": "Identify alternative approaches for the four themes."
+        },
+        {
+          "id": "d17-02",
+          "label": "Explain why the chosen version control approach was appropriate."
+        },
+        {
+          "id": "d17-03",
+          "label": "Justify the event-handling and interoperability approaches."
+        },
+        {
+          "id": "d17-04",
+          "label": "Evaluate authentication security and alternative approaches."
+        },
+        {
+          "id": "d17-05",
+          "label": "Prepare concise evidence and examples for the video discussion."
+        }
+      ]
+    },
+    {
+      "id": "d18",
+      "day": 18,
+      "title": "Prepare the Video and Supporting Materials",
+      "open": false,
+      "tasks": [
+        {
+          "id": "d18-01",
+          "label": "Plan a video structure within the 10-minute limit."
+        },
+        {
+          "id": "d18-02",
+          "label": "Prepare a brief outline covering the working demonstration and four themes."
+        },
+        {
+          "id": "d18-03",
+          "label": "Organize the source code and document external code sources."
+        },
+        {
+          "id": "d18-04",
+          "label": "Prepare architecture documentation and testing evidence."
+        },
+        {
+          "id": "d18-05",
+          "label": "Check that the supporting materials clearly identify your own work."
+        }
+      ]
+    },
+    {
+      "id": "d19",
+      "day": 19,
+      "title": "Final Review and Video Recording",
+      "open": false,
+      "tasks": [
+        {
+          "id": "d19-01",
+          "label": "Run the complete application and verify all essential features."
+        },
+        {
+          "id": "d19-02",
+          "label": "Record the authentic video using your own voice."
+        },
+        {
+          "id": "d19-03",
+          "label": "Check that the video demonstrates the system and discusses all four themes."
+        },
+        {
+          "id": "d19-04",
+          "label": "Verify the video is no longer than 10 minutes."
+        },
+        {
+          "id": "d19-05",
+          "label": "Check the source code, references, evidence, and submission files."
+        }
+      ]
+    },
+    {
+      "id": "d20",
+      "day": 20,
       "title": "Final Submission",
       "open": false,
       "tasks": [
-        { "id": "d7-01", "label": "Run the application and verify all major features." },
-        { "id": "d7-02", "label": "Verify that the source code is available in GitHub." },
-        { "id": "d7-03", "label": "Finalize the README and setup instructions." },
-        { "id": "d7-04", "label": "Prepare supporting evidence and screenshots." },
-        { "id": "d7-05", "label": "Prepare the video demonstration." },
-        { "id": "d7-06", "label": "Explain version control." },
-        { "id": "d7-07", "label": "Explain event-driven programming." },
-        { "id": "d7-08", "label": "Explain interoperability." },
-        { "id": "d7-09", "label": "Explain virtual identity." },
-        { "id": "d7-10", "label": "Record the video using my own voice." },
-        { "id": "d7-11", "label": "Ensure the video is no longer than 10 minutes." },
-        { "id": "d7-12", "label": "Check the submission requirements." },
-        { "id": "d7-13", "label": "Submit the source code, supporting materials, and video." }
+        {
+          "id": "d20-01",
+          "label": "Verify that the final video and supporting materials are ready."
+        },
+        {
+          "id": "d20-02",
+          "label": "Confirm the complete working source code is included."
+        },
+        {
+          "id": "d20-03",
+          "label": "Confirm external code and third-party sources are acknowledged."
+        },
+        {
+          "id": "d20-04",
+          "label": "Check the submission requirements and deadline."
+        },
+        {
+          "id": "d20-05",
+          "label": "Submit the video, source code, and required supporting evidence."
+        },
+        {
+          "id": "d20-06",
+          "label": "Verify the submission was completed successfully."
+        }
       ]
     }
   ]
